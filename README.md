@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/PriyanshuPanwarr/NFT-preview-card/blob/main/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/PriyanshuPanwarr/NFT-preview-card/blob/master/index.html)
+- Live Site URL: [Click here](https://priyanshupanwarr.github.io/NFT-preview-card/)
 
 
 
