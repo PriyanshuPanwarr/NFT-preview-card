@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+    <style>
+        .bg{
+            background-color:   hsl(217, 54%, 11%);
+            width: 1440px;
+        }
+        .content{
+            background-color:hsl(216, 50%, 16%);
+            font-family: 'Outfit', sans-serif;
+            padding: 2%;
+            width: 400px;
+            height: 680px;
+            position: relative;
+            left: 35%;
+            right: 35%;
+            border: 2px solid hsl(216, 50%, 16%);
+            border-radius: 20px;
+        }
+        h1{
+            color:hsl(0, 0%, 100%);
+        }
+        h2{
+            color:  hsl(215, 32%, 27%);
+        }
+        li{
+            list-style: square outside url('images/icon-ethereum.svg');
+            color: hsl(178, 100%, 50%);
+        }
+        .sec{
+            color: hsl(215, 51%, 70%);
+            text-align: right;
+            position: relative;
+            top: -37px;
+            left: -12px;
+            list-style: square outside url('images/icon-clock.svg') ;
+            margin: auto;
+        }
+        /* .two{
+            /* list-style: square outside url('images/icon-clock.svg') ; 
+
+        } */
+        .attribution{
+            color:  hsl(214, 57%, 93%);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+    <div class="content">
+        <img src="images/image-equilibrium.jpg" alt="body" width="404px" height="404px">
+        <h1>Equilibrium #3429</h1>
+        <h2>Our Equilibrium collection promotes balance and calm.</h2>
+        <ul>
+            <li>0.041ETH</li>
+             
+        </ul>
+        <ul class="two">
+            <li class="sec">3 days left</li>
+        </ul>
+     
+        <div class="attribution">
+           <img src="images/image-avatar.png" alt="face" width="20px"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Xyricsus</a>.
+        </div>   
+    </div>
+</div>
+</body>
+</html>
